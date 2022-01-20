@@ -79,27 +79,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──『[GOD OF THUNDER](https://telegra.ph/file/4c33a90f7df190fd81763.jpg)』──
-
-*Hello User!!*
-𝐇𝐞𝐲 𝐈'𝐦 [๖ۣۜZΞUS༻](https://en.m.wikipedia.org/wiki/Zeus),👋
-𝐈 𝐀𝐦 𝐀 𝐆𝐫𝐞𝐞𝐤 𝐌𝐲𝐭𝐡𝐨𝐥𝐨𝐠𝐲 𝐆𝐨𝐝 
-𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 𝐓𝐡𝐮𝐧𝐝𝐞𝐫...
+𝐇𝐞𝐲 𝐈'𝐦 [🦋⃟TessaQueen𝄞✿‌᭄](https://telegra.ph/file/1165ca39c3c7832e3b163.jpg) 
+𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help
+✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰
 
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』"""
 STICKERS = (
-      "CAACAgUAAx0CRiLf0wACvWBhmnKjHrrDcVgz6Ssk5wvA05NLDQACbgIAAv_H2FQTHfy_9X7rfSIE", #1
-      "CAACAgUAAx0CRiLf0wACvWZhmnOJLucdVwga5fnQJ0i7tD6nIgACsAQAAq042VQYQWM0cthfbyIE", #2
+      "CAACAgUAAxkDAAIE4WHo4JE9kYygEwZZBDhbepi4UuisAAKBBAACcChJV1c-xrpf7VqDIwQ", #1
+      "CAACAgUAAxkDAAIE4WHo4JE9kYygEwZZBDhbepi4UuisAAKBBAACcChJV1c-xrpf7VqDIwQ", #2
 )
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑️ SUBMIT GOD ZEUS ☑️",
-                            url="t.me/ZeusXRobot?startgroup=true"),
+                            text="ADD TESSA TO YOUR GROUP",
+                            url="t.me/Tessasong_bot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="🤖 Stats", callback_data="zeus_info"),
+                       InlineKeyboardButton(text="Owner", url="t.me/SMART_ARUNEY"),
                        InlineKeyboardButton(text="📊 Network", url="t.me/PegasusXteam"),
                        InlineKeyboardButton(text="🔔 Logs", url="t.me/pegasusLogs"),
                      ],
@@ -108,8 +105,8 @@ buttons = [
                              text="👫 Freedom",
                              url=f"https://t.me/UnitedSupport"),
                        InlineKeyboardButton(
-                             text="⚡ ZeusUpdates",
-                             url=f"https://t.me/{UPDATES_CHANNEL}"),
+                             text="Tassa Updates",
+                             url=f"https://t.me/"),
                      ],
                     [
                     InlineKeyboardButton(text="🔐 Open commads 🔐", callback_data="help_back"
